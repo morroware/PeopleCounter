@@ -51,3 +51,27 @@ This code is designed to detect breaks in a beam using a break-beam sensor conne
 ## Use Case
 
 - This code could be used in various applications such as monitoring a passage for entries/exits, counting products on a production line, or any other scenario where beam breaking needs to be detected and logged.
+
+
+## Wiring Tutorial
+
+### Materials Needed
+
+- Raspberry Pi (any model with GPIO pins)
+- Break-beam sensor
+- 1 x 10kΩ resistor (if required by your sensor)
+- Breadboard
+- Jumper wires
+
+### Steps
+
+1. **Identify the Sensor Pins:** Refer to your sensor's datasheet.
+2. **Connect the VCC Pin:** To the 5V or 3.3V pin on the Raspberry Pi.
+3. **Connect the GND Pin:** To a GND pin on the Raspberry Pi.
+4. **Connect the OUT Pin (with Resistor if Required):** To GPIO 17 (or your chosen pin).
+5. **Verify Connections:** Ensure they are correct and secure.
+6. **Power On:** The Raspberry Pi.
+---
+
+With these steps completed, your break-beam sensor should be wired correctly and ready to use with the provided code.
+
